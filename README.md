@@ -7,7 +7,7 @@ The three files and folders are 'java', 'res', and 'AndroidManifest.xml'.
 'res' stands for resources, it contains our android layouts, strings, and images. The only one you really need to use is images. Its how 
 I load custom icons and bitmaps for my games. Other things are useful too but you are less likely to use them.
 
-'AndroidManifest.xml' is very important. It contains various things, one example is permissions. This sample project contains the following permission: <uses
+'AndroidManifest.xml' is very important. It contains various things, one example is permissions. This sample project contains the following permission: <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
 That permission allows us to write code in our java files to add an icon shortcut to the homescreen of the user's device.
 Under the acticty heading in the 'AndroidManifest.xml' you will see the tag android:screenOrientation="sensorLandscape"> which sets the
 phone's orientation to landscape. 
